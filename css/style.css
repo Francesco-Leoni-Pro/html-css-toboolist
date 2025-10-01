@@ -1,15 +1,31 @@
+/* Reset */
 * {margin: 0;
    padding: 0;
    box-sizing: border-box;}
+
+   /* utilities */
+   body {background-color: lightgrey;
+font-family: sans-serif;}
+
+    header {
+        background-color: white;}
 
   nav {
     display: flex;
     align-items: center;
     gap: 5px;
     padding: 20px;
-    border: 1px solid black;
   }
 
-  main {
-    background-color: gray
-  }
+  main { display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;}
+
+    main .container {
+        background-color: white;
+        width: 80%;
+        max-width: 600px;
+        padding: 2rem;
+    }
+
+
