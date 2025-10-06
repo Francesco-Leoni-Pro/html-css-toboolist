@@ -119,3 +119,7 @@ ul {
         background-color: lightgreen;
         color: white;
     }
+
+    ul {
+        list-style: none;
+    }
